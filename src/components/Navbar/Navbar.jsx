@@ -4,10 +4,10 @@ import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import classNames from 'classnames';
 
 const navigation = [
-    { name: 'Dashboard', href: '#', current: true },
-    { name: 'Team', href: '#', current: false },
-    { name: 'Projects', href: '#', current: false },
-    { name: 'Calendar', href: '#', current: false },
+    { name: 'Accueil', href: '#', current: true },
+    { name: 'Tournois', href: '#', current: false },
+    { name: 'Connexion', href: '#', current: false },
+    { name: 'Inscription', href: '#', current: false },
 ]
 
 function Navbar() {
@@ -36,12 +36,12 @@ function Navbar() {
                             <div className="flex flex-shrink-0 items-center">
                                 <img
                                     className="block h-8 w-auto lg:hidden"
-                                    src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
+                                    src="https://cdn.discordapp.com/attachments/1030225156162990114/1105764058470293564/MicrosoftTeams-image_4.png"
                                     alt="Your Company"
                                 />
                                 <img
                                     className="hidden h-8 w-auto lg:block"
-                                    src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
+                                    src="https://cdn.discordapp.com/attachments/1030225156162990114/1105764058470293564/MicrosoftTeams-image_4.png"
                                     alt="Your Company"
                                 />
                             </div>
